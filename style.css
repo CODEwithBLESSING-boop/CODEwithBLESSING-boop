@@ -1,0 +1,344 @@
+/* general styling */
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  text-transform: capitalize;
+  box-sizing: border-box;
+  font-family: "Space Grotesk", sans-serif;
+}
+/* general syling end */
+i {
+  color: aliceblue;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+p,
+span,
+body,
+a {
+  font-family: "Albert Sans", sans-serif;
+}
+/* hero-section */
+.hero-section {
+  background-color: black;
+  min-width: 80px;
+  height: 500px;
+}
+.hero-container {
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  width: 40%;
+}
+.welcome-container {
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: 8px;
+  color: white;
+  padding-top: 30px;
+}
+.welcome-all {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.image {
+  width: 50%;
+  height: 340px;
+  border-radius: 50%;
+  overflow: hidden;
+  transform: rotate(40deg);
+  margin: 20px;
+}
+.img {
+  width: 90%;
+  transform: rotate(-30deg) translateY(50px) scale(1.4);
+}
+.paragraph {
+  width: 500px;
+  display: flex;
+  justify-content: flex-end;
+}
+.p {
+  color: white;
+}
+
+@media screen and (max-width: 778px) {
+  .hero-section {
+    width: 100%;
+  }
+  .welcome-container {
+    letter-spacing: 2px;
+    color: red;
+  }
+}
+
+/* hero-section end */
+
+/* about-me section */
+.about-me-section {
+  background-color: black;
+  min-width: 80px;
+  height: 460px;
+}
+.about-me-container {
+  display: flex;
+  gap: 60px;
+  min-width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.blessing {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.blessing-top {
+  color: white;
+  font-weight: bold;
+  font-size: 45px;
+}
+.blessing-p {
+  color: white;
+  margin-top: 100px;
+}
+.horizontal {
+  color: white;
+}
+.image-second {
+  width: 20%;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.img-second {
+  width: 80%;
+  margin: 20px;
+  height: 95%;
+  transform: rotate(-10deg) translateY(58px) scale(1.4);
+}
+/* about-me section-end */
+/* background-section */
+.background-section {
+  background-color: black;
+  min-width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.background-container {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  align-items: flex-start;
+}
+.my {
+  display: flex;
+}
+.BACKGROUND {
+  color: white;
+  font-weight: bold;
+  font-size: 60px;
+}
+.both-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  align-items: flex-end;
+}
+.blue {
+}
+.icon-left {
+  display: flex;
+  gap: 30px;
+}
+.e {
+  color: white;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.icon-corner-down-right {
+  font-size: 30px;
+}
+.ul {
+  color: grey;
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  align-self: flex-start;
+}
+/* background-section-end */
+
+/* my art section */
+.my-art-section {
+  background-color: black;
+  min-width: 100%;
+  height: 600px;
+  display: flex;
+}
+.my-art-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 30px;
+}
+.art {
+  width: 100%;
+}
+.t {
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+  font-size: 60px;
+}
+
+.diagram {
+  display: flex;
+  width: 1000px;
+  height: 250px;
+  gap: 70px;
+  justify-content: center;
+}
+.all {
+  height: 500px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+}
+.wow {
+  background: yellow;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  /* margin-top: 20px; */
+  display: flex;
+  justify-content: center;
+  border: black solid;
+  border-radius: 90px 90px 0 0;
+}
+.each-photo-one {
+  background-image: url("./img/igth.png");
+  background-position: top center;
+}
+.each-photo-two {
+  background-image: url("./img/ihhh.png");
+  background-position: bottom center;
+}
+.each-photo-three {
+  background-image: url("./img/yhj.png");
+  background-position: bottom center;
+}
+.phone {
+  color: white;
+}
+/* my art section end */
+
+/* explain section */
+.explain-section {
+  background-color: black;
+  height: 500px;
+  width: 100%;
+}
+.explain-container {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  width: 100%;
+}
+.speaks {
+  width: 50%;
+  margin-top: 10rem;
+}
+.where {
+  font-size: 50px;
+  color: white;
+}
+.image-third {
+  width: 20%;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.img-third {
+  width: 80%;
+  margin: 20px;
+  height: 95%;
+  transform: rotate(-10deg) translateY(48px) scale(1.4);
+}
+/* explain section-end */
+/* end-section */
+.end-section {
+  background-color: black;
+  width: 100%;
+  height: 550px;
+}
+.end-container {
+  display: flex;
+  flex-direction: column;
+  gap: 7rem;
+}
+.reach {
+  color: white;
+  font-size: 70px;
+}
+.three-holder {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  justify-content: center;
+}
+.add {
+  color: white;
+  font-weight: bold;
+}
+.pp {
+  color: grey;
+}
+.collaborate {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+.kkk {
+  font-size: 20px;
+}
+.colla {
+  color: white;
+  font-size: 20px;
+}
+/* end-section-end */
